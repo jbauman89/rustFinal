@@ -1,10 +1,10 @@
 //! Snake game
 //!
 //! Example of 2d graphics in Rust.
-//! 
+//!
 //! Completed code for https://youtu.be/HCwMb0KslX8
 //! Author: @youcodethings
-//! 
+//!
 //! All additional changes are in logic only.
 //! No new rendering or library stuff.
 
@@ -30,6 +30,7 @@ pub struct Game {
     cols: u32,
     snake: Snake,
     just_eaten: bool,
+    square_width: u32,
     food: Food,
     score: u32,
 }
@@ -45,7 +46,7 @@ impl Game {
         });
 
         self.snake.render(args);
-        self.food.render(&mut self.gl, args, square_width);
+        self.food.render(&mut self.gl, args, self.square_width);
     }
 
     fn update(&mut self, args: &UpdateArgs) -> bool {
