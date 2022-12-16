@@ -1,7 +1,11 @@
 /// Jonathan Bauman
 /// Final Project 
 /// Advanced Programming Workshop: Rust
-
+///
+/// This program imports multiple crates to create a new window
+/// that plays the game "Snake." This gameloop will run until 
+/// the snake either collides with the edge of the window or itself.
+/// The game will print the score at the end. 
 
 
 

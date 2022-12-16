@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["TIFFDecoder","The representation of a TIFF decoder"]]};

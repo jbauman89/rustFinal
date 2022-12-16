@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["ParseRatioError",""],["Ratio","Represents the ratio between 2 numbers."]],"type":[["Rational","Alias for a `Ratio` of machine-sized integers."],["Rational32",""],["Rational64",""]]};

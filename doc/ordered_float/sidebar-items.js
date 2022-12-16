@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["FloatIsNaN","An error indicating an attempt to construct NotNaN from a NaN"],["NotNaN","A wrapper around Floats providing an implementation of Ord and Hash."],["OrderedFloat","A wrapper around Floats providing an implementation of Ord and Hash."]]};
